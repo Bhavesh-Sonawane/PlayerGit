@@ -22,7 +22,7 @@ namespace WebAppGitExaple.Controllers
                 new Player{PId=2,PName="Dinesh",PTeam="Mi"},
                 new Player{PId=3,PName="Pramod",PTeam="Delhi"}
             };
-            return View();
+            return View(players);
         }
     }
 }
